@@ -7,15 +7,17 @@ public class BortTest extends HummingbirdRobot{
         // Hummingbird object
         Bort bort = new Bort();
 
+        System.out.println(bort.bootMessage());
+
         bort.setFullColorLED(1, 255,0,0);
 
         bort.changeEyeColor();
 
-
-
-
-
         Thread.sleep(10000);
+
+        //bort.setServoPosition(1,200);
+
+
 
         bort.disconnect();
     }
