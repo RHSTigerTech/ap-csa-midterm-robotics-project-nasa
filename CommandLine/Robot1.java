@@ -4,7 +4,7 @@ import edu.cmu.ri.createlab.hummingbird.HummingbirdVersionNumber;
 
 //Extend the Hummingbird Robot class
 //If we want to pause execution Thread.sleep(1000), we need to handle an exception
-public class Robot1 extends HummingbirdRobot {
+/*public class Robot1 extends HummingbirdRobot {
     // Create a main method
     public static void main (String [] args)throws InterruptedException {
         // create a hummingbird object
@@ -40,3 +40,4 @@ public class Robot1 extends HummingbirdRobot {
         duny.disconnect();
     }
 }
+*/
